@@ -26,7 +26,9 @@ const LeftSidebar = () => {
     <nav className="leftsidebar">
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
-          <img src="/assets/images/logo.svg" alt="logo" width={170} height={36} />
+          <h1 className="h3-bold md:h2-bold text-left w-full">
+            i<span className="text-primary-500">T</span>rend
+          </h1>
         </Link>
 
         {isLoading || !user.email ? (
